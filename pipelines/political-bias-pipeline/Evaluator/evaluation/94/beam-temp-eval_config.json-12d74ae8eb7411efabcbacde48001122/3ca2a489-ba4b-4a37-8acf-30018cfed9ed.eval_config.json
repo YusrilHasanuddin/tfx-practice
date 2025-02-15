@@ -1,0 +1,48 @@
+{
+  "evalConfig": {
+    "modelSpecs": [
+      {
+        "labelKey": "bias"
+      }
+    ],
+    "slicingSpecs": [
+      {}
+    ],
+    "metricsSpecs": [
+      {
+        "metrics": [
+          {
+            "className": "ExampleCount"
+          },
+          {
+            "className": "AUC"
+          },
+          {
+            "className": "FalsePositives"
+          },
+          {
+            "className": "TruePositives"
+          },
+          {
+            "className": "FalseNegatives"
+          },
+          {
+            "className": "TrueNegatives"
+          },
+          {
+            "className": "Accuracy"
+          }
+        ],
+        "modelNames": [
+          ""
+        ]
+      }
+    ]
+  },
+  "version": "0.44.0",
+  "dataLocation": "<user provided PCollection>",
+  "fileFormat": "<unknown>",
+  "modelLocations": {
+    "": "pipelines/political-bias-pipeline/Trainer/model/90/Format-Serving"
+  }
+}
