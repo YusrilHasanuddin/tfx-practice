@@ -1,0 +1,33 @@
+{
+  "evalConfig": {
+    "modelSpecs": [
+      {
+        "labelKey": "bias_xf"
+      }
+    ],
+    "slicingSpecs": [
+      {}
+    ],
+    "metricsSpecs": [
+      {
+        "metrics": [
+          {
+            "className": "CategoricalAccuracy"
+          },
+          {
+            "className": "AUC"
+          }
+        ],
+        "modelNames": [
+          ""
+        ]
+      }
+    ]
+  },
+  "version": "0.44.0",
+  "dataLocation": "<user provided PCollection>",
+  "fileFormat": "<unknown>",
+  "modelLocations": {
+    "": "yusrilhasan-pipelines/political-bias-pipeline/Trainer/model/14/Format-Serving"
+  }
+}
