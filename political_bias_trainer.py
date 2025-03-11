@@ -132,8 +132,8 @@ def run_fn(fn_args: FnArgs) -> None:
     model.fit(x = train_set,
             validation_data = val_set,
             callbacks = [tensorboard_callback, es, mc],
-            steps_per_epoch = 1000, 
-            validation_steps= 1000,
+            steps_per_epoch = 10, 
+            validation_steps= 10,
             epochs=10)
     signatures = {
         'serving_default':
