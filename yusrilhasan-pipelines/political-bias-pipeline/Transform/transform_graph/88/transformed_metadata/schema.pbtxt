@@ -6,7 +6,7 @@ feature {
   }
   shape {
     dim {
-      size: 1
+      size: 5
     }
   }
 }

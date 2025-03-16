@@ -1,0 +1,12 @@
+{
+    "modelName": "political-bias-detection-model",
+    "signatureName": "serving_default",
+    "inputs": [
+      {
+        "name": "text",
+        "shape": [1],
+        "dataType": "DT_STRING",
+        "data": ["This is a sample text for warming up the model. Donald Trump suck."]
+      }
+    ]
+  }

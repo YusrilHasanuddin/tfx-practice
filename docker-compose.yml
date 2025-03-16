@@ -1,0 +1,29 @@
+version: '3'
+services:
+  tf-serving:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8500:8500"
+      - "8501:8501"
+    networks:
+      - tf-network
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'  # Use 2 CPUs
+          memory: 2G   # Use 2GB RAM
+
+  prometheus:
+    build:
+      context: ./monitor
+      dockerfile: Dockerfile
+    ports:
+      - "9090:9090"
+    networks:
+      - tf-network
+
+networks:
+  tf-network:
+    driver: bridge

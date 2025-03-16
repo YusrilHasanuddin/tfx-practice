@@ -1,0 +1,1 @@
+[{"trial_id": "0", "score": 0.5190972089767456, "units": 64, "learning_rate": 0.01}, {"trial_id": "1", "score": 0.5190972089767456, "units": 64, "learning_rate": 0.001}, {"trial_id": "2", "score": 0.5190972089767456, "units": 128, "learning_rate": 0.01}]

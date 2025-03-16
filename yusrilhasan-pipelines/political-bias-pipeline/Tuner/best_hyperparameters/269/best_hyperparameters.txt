@@ -1,0 +1,1 @@
+{"space": [{"class_name": "Choice", "config": {"name": "units", "default": 64, "conditions": [], "values": [64, 128], "ordered": true}}], "values": {"units": 64, "tuner/epochs": 2, "tuner/initial_epoch": 0, "tuner/bracket": 2, "tuner/round": 0}}

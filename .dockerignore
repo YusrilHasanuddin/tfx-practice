@@ -1,0 +1,12 @@
+# This file specifies files and directories to ignore when building the Docker image.
+
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.env
+*.ipynb
+model/README.md
