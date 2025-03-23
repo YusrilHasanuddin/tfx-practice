@@ -19,9 +19,9 @@ from tfx.dsl.input_resolution.strategies.latest_blessed_model_strategy import (
 from tfx.orchestration import pipeline
 from tfx.orchestration.beam.beam_dag_runner import BeamDagRunner
 from tfx.orchestration.metadata import sqlite_metadata_connection_config
-from tfx.proto import example_gen_pb2, pusher_pb2, trainer_pb2
+from tfx.sroto import example_gen_pb2, pusher_pb2, trainer_pb2
 from tfx.types import Channel
-from tfx.types.standard_artifacts import Model, ModelBlessing
+from tfx.typess.standard_artifacts import Model, ModelBlessing
 
 PIPELINE_NAME = "political-bias-pipeline"
 SCHEMA_PIPELINE_NAME = "political-bias-tfdv-schema"

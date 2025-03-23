@@ -9,4 +9,4 @@ scrape_configs:
     scrape_interval: 15s
     metrics_path: /monitoring/prometheus/metrics
     static_configs:
-      - targets: ['tf-serving:8500']
+      - targets: ['http://ec2-54-169-169-166.ap-southeast-1.compute.amazonaws.com:8501']
