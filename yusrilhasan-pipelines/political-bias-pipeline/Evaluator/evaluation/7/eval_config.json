@@ -12,7 +12,10 @@
       {
         "metrics": [
           {
-            "className": "CategoricalAccuracy"
+            "className": "ExampleCount"
+          },
+          {
+            "className": "Accuracy"
           },
           {
             "className": "AUC"
@@ -28,6 +31,6 @@
   "dataLocation": "<user provided PCollection>",
   "fileFormat": "<unknown>",
   "modelLocations": {
-    "": "pipelines/political-bias-pipeline/Trainer/model/6/Format-Serving"
+    "": "yusrilhasan-pipelines/political-bias-pipeline/Trainer/model/6/Format-Serving"
   }
 }
